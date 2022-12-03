@@ -8,6 +8,7 @@ import com.google.android.material.snackbar.Snackbar;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+// import android.text.style.SuggestionRangeSpan;
 import android.view.View;
 
 import androidx.navigation.NavController;
@@ -25,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
     private AppBarConfiguration appBarConfiguration;
     private ActivityMainBinding binding;
     // RequestQueue queue = Volley.newRequestQueue(this);
+    // SuggestionRangeSpan s;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
